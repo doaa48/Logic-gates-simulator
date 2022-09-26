@@ -1,0 +1,29 @@
+1.gate type (such as AND/OR gate)
+2.The inputs and output symbols
+3.Write "SET" values to the inputs (either 0 or 1)
+4.Write "SIM" to start simulation
+5.Write "OUT" to view the output of a specific node or "OUT ALL" to view all nodes' values
+
+
+Input ex:
+
+AND A B D
+NAND A C E
+OR D E F
+SET A 0
+SET B 1
+SET C 1
+SIM
+OUT F
+OUT ALL
+
+
+Output:
+
+F: 1
+A: 0
+B: 1
+D: 0
+C: 1 
+E: 1
+F: 1
